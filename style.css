@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(ChatGPT\ Image\ May\ 10\,\ 2026\,\ 11_59_33\ AM.png);
+}
+.img-container {
+  height: 100vh;
+
+  overflow: hidden;
+  clip-path: ellipse(85% 90% at 50% 0%);
+  position: relative;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0% 4%;
+}
+.head {
+  position: absolute;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+  top: 25%;
+  left: 50%;
+
+  height: 70%;
+  width: 80%;
+}
+.center-txt {
+  background: transparent;
+}
+.monkey {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 58.2%;
+  left: 48%;
+  z-index: 4;
+}
+.Nav-container {
+  display: flex;
+  z-index: 100;
+  top: -5%;
+  align-items: center;
+  position: absolute;
+  gap: 80px;
+}
+#logo {
+  width: 320px;
+  object-fit: cover;
+  background: transparent;
+  height: 200px;
+  cursor: pointer;
+}
+.ri-instagram-fill {
+  color: white;
+  font-size: 40px;
+}
+.ri-telegram-fill {
+  color: white;
+  font-size: 40px;
+}
+.ri-discord-fill {
+  color: white;
+  font-size: 40px;
+}
+.icon {
+  display: flex;
+  gap: 40px;
+  cursor: pointer;
+}
+.nav-bar {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+  transition: all 0.6s ease;
+}
+.nav-bar:hover {
+  text-decoration: underline;
+}
+.button {
+  position: absolute;
+  z-index: 20;
+  transform: translate(-50%, -50%);
+  top: 66%;
+  left: 50%;
+  width: 20%;
+  cursor: pointer;
+}
+.sub-head {
+  position: absolute;
+  z-index: 6;
+  font-size: 15px;
+  top: 28%;
+  left: 18%;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sub-head2 {
+  position: absolute;
+  z-index: 6;
+  font-size: 15px;
+  top: 44%;
+  left: 59%;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.Vision {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+}
+
+.context {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  color: white;
+  margin-top: 2%;
+  font-size: 18px;
+  align-items: center;
+}
